@@ -1,0 +1,119 @@
+*{margin:0px; padding:0px;}
+ol, ul 
+{
+	margin:10px;
+	list-style-position: inside;
+	color: #ff0000;
+}
+h1, h2
+{
+	text-align: center;
+	color: #ffff00;
+}
+img 
+{
+	margin: 10px;
+	height: 50px;
+	border-radius: 10px;
+	border-style: ridge;
+}
+span 
+{
+	font-style: italic;
+	color: #0000ff;
+}
+#container
+{
+	position: relative;
+	margin: auto;
+	width: 800px;
+	height: 600px;
+	background-color: #dddddd;
+}
+#kop 
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 100px;
+	background-color: #dddd44;
+	background-image: url(kop.jpg);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+#menu
+{
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	width: 200px;
+	height: 500px;
+	background-color: #dd44dd;
+}
+#rest
+{
+	position: absolute;
+	top: 100px;
+	left: 200px;
+	width: 600px;
+	height: 500px;
+	background-color: #44dddd;
+}
+#rest p
+{
+	text-indent: 20px;
+	margin: 10px;
+}
+#menu ol 
+{
+	list-style-type: none;
+}
+#menu a 
+{
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #0000ff;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	border-style: outset;
+	border-color: #aaaaaa;	
+	border-radius: 15px;
+}
+#menu a:active 
+{
+	background-color: #ffffff;
+	color: #000000;	
+	border-style: inset;
+}
+.hier 
+{
+	display: block;
+	text-decoration: none;
+	color: #aaaaff;
+	background-color: #dddddd;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	border-style: outset;
+	border-color: #aaaaaa;	
+	border-radius: 15px;
+}
+.a 
+{
+	float: left;
+}
+.b 
+{
+	float: right;
+}
+.c 
+{
+	color: #ff8888;
+}
+.d 
+{
+	color: #ffff55;
+}
